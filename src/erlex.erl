@@ -7,5 +7,6 @@
 
 test() -> 
 	'Elixir.HelloWorld':hello().
+	 % 'Elixir.Faker.Address':city().
 
 	

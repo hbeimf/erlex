@@ -8,7 +8,8 @@
     stdlib,
      crypto,
     elixir,
-    hello_world
+    hello_world,
+    faker
    ]},
   {env,[]},
   {modules, []},
