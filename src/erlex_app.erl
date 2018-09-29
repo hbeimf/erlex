@@ -8,7 +8,7 @@
 -behaviour(application).
 
 %% Application callbacks
--export([start/2, stop/1]).
+-export([start/2, stop/1, fake_city/0]).
 
 %%====================================================================
 %% API
@@ -16,6 +16,9 @@
 
 start(_StartType, _StartArgs) ->
     erlex_sup:start_link().
+
+fake_city() ->
+    'Elixir.Faker.Address':city().
 
 %%--------------------------------------------------------------------
 stop(_State) ->

@@ -5,7 +5,10 @@
   {mod, { erlex_app, []}},
   {applications,
    [kernel,
-    stdlib
+    stdlib,
+     crypto,
+    elixir,
+    hello_world
    ]},
   {env,[]},
   {modules, []},
